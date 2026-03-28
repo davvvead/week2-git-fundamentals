@@ -1,0 +1,32 @@
+{
+  "name": "week7-npm-lab",
+  "version": "1.0.0",
+  "description": "npm package mangement lab for WDDM 126",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davvvead/week2-git-fundamentals.git"
+  },
+  "keywords": [
+    "npm",
+    "package-management",
+    "wddm126"
+  ],
+  "author": "Dave Adams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davvvead/week2-git-fundamentals/issues"
+  },
+  "homepage": "https://github.com/davvvead/week2-git-fundamentals#readme",
+  "dependencies": {
+    "dayjs": "^1.11.20"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
